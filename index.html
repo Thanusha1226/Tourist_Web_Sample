@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="description"
@@ -14,7 +13,6 @@
 
     <title>Serendipity Trails | Discover Sri Lanka</title>
 
-    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -22,7 +20,6 @@
         href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
         rel="stylesheet">
 
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
     <link rel="stylesheet" href="style.css">
@@ -30,15 +27,14 @@
 
 <body>
 
-    <!-- =========================
-         NAVIGATION
-    ========================== -->
+    <!-- HEADER -->
 
     <header class="header" id="header">
 
         <div class="container nav-container">
 
             <a href="#home" class="logo">
+
                 <span class="logo-icon">
                     <i class="fa-solid fa-compass"></i>
                 </span>
@@ -47,6 +43,7 @@
                     Serendipity
                     <small>TRAILS</small>
                 </span>
+
             </a>
 
             <nav class="nav-menu" id="navMenu">
@@ -73,11 +70,9 @@
     </header>
 
 
-    <!-- =========================
-         HERO
-    ========================== -->
-
     <main>
+
+        <!-- HERO -->
 
         <section class="hero" id="home">
 
@@ -124,9 +119,7 @@
         </section>
 
 
-        <!-- =========================
-             QUICK SEARCH
-        ========================== -->
+        <!-- QUICK SEARCH -->
 
         <section class="trip-search">
 
@@ -135,50 +128,73 @@
                 <div class="search-card">
 
                     <div class="search-item">
+
                         <i class="fa-solid fa-map-location-dot"></i>
 
                         <div>
+
                             <label>Destination</label>
+
                             <select id="destinationSelect">
+
                                 <option value="">Where to?</option>
-                                <option>Sigiriya</option>
-                                <option>Kandy</option>
-                                <option>Ella</option>
-                                <option>Galle</option>
-                                <option>Yala</option>
+                                <option value="Sigiriya">Sigiriya</option>
+                                <option value="Kandy">Kandy</option>
+                                <option value="Ella">Ella</option>
+                                <option value="Galle">Galle</option>
+                                <option value="Yala">Yala</option>
+
                             </select>
+
                         </div>
+
                     </div>
 
+
                     <div class="search-item">
+
                         <i class="fa-solid fa-calendar-days"></i>
 
                         <div>
+
                             <label>Travel Date</label>
+
                             <input type="date" id="travelDate">
+
                         </div>
+
                     </div>
 
+
                     <div class="search-item">
+
                         <i class="fa-solid fa-users"></i>
 
                         <div>
+
                             <label>Travelers</label>
 
                             <select id="travelerSelect">
+
                                 <option>1 Traveler</option>
                                 <option>2 Travelers</option>
                                 <option>3 Travelers</option>
                                 <option>4 Travelers</option>
                                 <option>5+ Travelers</option>
+
                             </select>
 
                         </div>
+
                     </div>
 
+
                     <button class="search-btn" id="searchBtn">
+
                         Search
+
                         <i class="fa-solid fa-arrow-right"></i>
+
                     </button>
 
                 </div>
@@ -188,9 +204,7 @@
         </section>
 
 
-        <!-- =========================
-             DESTINATIONS
-        ========================== -->
+        <!-- DESTINATIONS -->
 
         <section class="section destinations" id="destinations">
 
@@ -199,12 +213,16 @@
                 <div class="section-heading">
 
                     <div>
-                        <span class="section-label">EXPLORE SRI LANKA</span>
+
+                        <span class="section-label">
+                            EXPLORE SRI LANKA
+                        </span>
 
                         <h2>
                             Places that will
                             <span>stay with you</span>
                         </h2>
+
                     </div>
 
                     <p>
@@ -219,17 +237,20 @@
 
                     <a href="#tours" class="destination-card destination-large">
 
-                        <img src="https://images.unsplash.com/photo-1588598198321-9735fd524ef0?auto=format&fit=crop&w=1200&q=85"
+                        <img src="https://images.unsplash.com/photo-1612862862126-865765df2ded?w=1200&auto=format&fit=crop&q=80"
                             alt="Sigiriya Sri Lanka">
 
                         <div class="destination-info">
+
                             <span>Cultural Triangle</span>
+
                             <h3>Sigiriya</h3>
 
                             <div>
                                 <i class="fa-solid fa-location-dot"></i>
                                 Central Province
                             </div>
+
                         </div>
 
                     </a>
@@ -237,17 +258,20 @@
 
                     <a href="#tours" class="destination-card">
 
-                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=900&q=85"
+                        <img src="https://images.pexels.com/photos/2403209/pexels-photo-2403209.jpeg"
                             alt="Ella mountains">
 
                         <div class="destination-info">
+
                             <span>Hill Country</span>
+
                             <h3>Ella</h3>
 
                             <div>
                                 <i class="fa-solid fa-location-dot"></i>
                                 Uva Province
                             </div>
+
                         </div>
 
                     </a>
@@ -255,17 +279,20 @@
 
                     <a href="#tours" class="destination-card">
 
-                        <img src="https://images.unsplash.com/photo-1546708973-b339540b5162?auto=format&fit=crop&w=900&q=85"
-                            alt="Sri Lankan beach">
+                        <img src="https://images.unsplash.com/photo-1734279135096-2854a06faba8?w=1200&auto=format&fit=crop&q=80"
+                            alt="Galle Sri Lanka">
 
                         <div class="destination-info">
+
                             <span>Southern Coast</span>
+
                             <h3>Galle</h3>
 
                             <div>
                                 <i class="fa-solid fa-location-dot"></i>
                                 Southern Province
                             </div>
+
                         </div>
 
                     </a>
@@ -277,9 +304,7 @@
         </section>
 
 
-        <!-- =========================
-             WHY US
-        ========================== -->
+        <!-- ABOUT -->
 
         <section class="why-section" id="about">
 
@@ -287,12 +312,18 @@
 
                 <div class="why-image">
 
-                    <img src="https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1000&q=85"
+                    <img src="https://images.unsplash.com/photo-1558871624-7b507467240f?w=1200&auto=format&fit=crop&q=80"
                         alt="Sri Lanka temple">
 
                     <div class="experience-badge">
+
                         <strong>10+</strong>
-                        <span>Years of<br>Experience</span>
+
+                        <span>
+                            Years of<br>
+                            Experience
+                        </span>
+
                     </div>
 
                 </div>
@@ -300,7 +331,9 @@
 
                 <div class="why-content">
 
-                    <span class="section-label">WHY TRAVEL WITH US</span>
+                    <span class="section-label">
+                        WHY TRAVEL WITH US
+                    </span>
 
                     <h2>
                         Your journey.
@@ -329,9 +362,7 @@
 
                             <div>
                                 <h4>Local Experts</h4>
-                                <p>
-                                    Travel with people who know Sri Lanka.
-                                </p>
+                                <p>Travel with people who know Sri Lanka.</p>
                             </div>
 
                         </div>
@@ -345,9 +376,7 @@
 
                             <div>
                                 <h4>Safe & Comfortable</h4>
-                                <p>
-                                    Your comfort and safety come first.
-                                </p>
+                                <p>Your comfort and safety come first.</p>
                             </div>
 
                         </div>
@@ -361,9 +390,7 @@
 
                             <div>
                                 <h4>Tailor-Made Trips</h4>
-                                <p>
-                                    Your trip, your way, your pace.
-                                </p>
+                                <p>Your trip, your way, your pace.</p>
                             </div>
 
                         </div>
@@ -377,9 +404,7 @@
 
                             <div>
                                 <h4>24/7 Support</h4>
-                                <p>
-                                    We're here whenever you need us.
-                                </p>
+                                <p>We're here whenever you need us.</p>
                             </div>
 
                         </div>
@@ -393,9 +418,7 @@
         </section>
 
 
-        <!-- =========================
-             TOURS
-        ========================== -->
+        <!-- TOURS -->
 
         <section class="section tours" id="tours">
 
@@ -405,7 +428,9 @@
 
                     <div>
 
-                        <span class="section-label">OUR EXPERIENCES</span>
+                        <span class="section-label">
+                            OUR EXPERIENCES
+                        </span>
 
                         <h2>
                             Choose your
@@ -423,14 +448,12 @@
 
                 <div class="tour-grid">
 
-                    <!-- Tour 1 -->
-
                     <article class="tour-card">
 
                         <div class="tour-image">
 
-                            <img src="https://images.unsplash.com/photo-1609920658906-8223bd289001?auto=format&fit=crop&w=900&q=85"
-                                alt="Sri Lanka cultural tour">
+                            <img src="https://images.unsplash.com/photo-1665849050430-5e8c16bacf7e?w=1000&auto=format&fit=crop&q=80"
+                                alt="Sri Lanka Cultural Tour">
 
                             <span class="tour-tag">
                                 Best Seller
@@ -441,6 +464,7 @@
                         <div class="tour-content">
 
                             <div class="tour-meta">
+
                                 <span>
                                     <i class="fa-regular fa-clock"></i>
                                     5 Days
@@ -450,6 +474,7 @@
                                     <i class="fa-solid fa-location-dot"></i>
                                     Kandy
                                 </span>
+
                             </div>
 
                             <h3>
@@ -469,8 +494,11 @@
                                 </div>
 
                                 <a href="#booking" class="tour-link">
+
                                     View Tour
+
                                     <i class="fa-solid fa-arrow-right"></i>
+
                                 </a>
 
                             </div>
@@ -480,13 +508,11 @@
                     </article>
 
 
-                    <!-- Tour 2 -->
-
                     <article class="tour-card">
 
                         <div class="tour-image">
 
-                            <img src="https://images.unsplash.com/photo-1589308078059-be1415eab4c3?auto=format&fit=crop&w=900&q=85"
+                            <img src="https://images.pexels.com/photos/6140665/pexels-photo-6140665.jpeg"
                                 alt="Ella Sri Lanka">
 
                         </div>
@@ -512,8 +538,8 @@
                             </h3>
 
                             <p>
-                                Ride the famous train, hike through
-                                green mountains and discover tea country.
+                                Ride the famous train, hike through green
+                                mountains and discover tea country.
                             </p>
 
                             <div class="tour-bottom">
@@ -524,8 +550,11 @@
                                 </div>
 
                                 <a href="#booking" class="tour-link">
+
                                     View Tour
+
                                     <i class="fa-solid fa-arrow-right"></i>
+
                                 </a>
 
                             </div>
@@ -535,14 +564,12 @@
                     </article>
 
 
-                    <!-- Tour 3 -->
-
                     <article class="tour-card">
 
                         <div class="tour-image">
 
-                            <img src="https://images.unsplash.com/photo-1544550285-f813152fb2fd?auto=format&fit=crop&w=900&q=85"
-                                alt="Sri Lanka beach">
+                            <img src="https://images.unsplash.com/photo-1653959699604-1eb000740b57?w=1000&auto=format&fit=crop&q=80"
+                                alt="Sri Lanka Beach">
 
                             <span class="tour-tag">
                                 Relaxation
@@ -583,8 +610,11 @@
                                 </div>
 
                                 <a href="#booking" class="tour-link">
+
                                     View Tour
+
                                     <i class="fa-solid fa-arrow-right"></i>
+
                                 </a>
 
                             </div>
@@ -599,8 +629,11 @@
                 <div class="center-btn">
 
                     <a href="#booking" class="btn btn-dark">
+
                         View All Tours
+
                         <i class="fa-solid fa-arrow-right"></i>
+
                     </a>
 
                 </div>
@@ -610,9 +643,7 @@
         </section>
 
 
-        <!-- =========================
-             STATS
-        ========================== -->
+        <!-- STATS -->
 
         <section class="stats-section">
 
@@ -643,9 +674,7 @@
         </section>
 
 
-        <!-- =========================
-             GALLERY
-        ========================== -->
+        <!-- GALLERY -->
 
         <section class="section gallery-section" id="gallery">
 
@@ -655,7 +684,9 @@
 
                     <div>
 
-                        <span class="section-label">TRAVEL MOMENTS</span>
+                        <span class="section-label">
+                            TRAVEL MOMENTS
+                        </span>
 
                         <h2>
                             Sri Lanka through
@@ -675,7 +706,7 @@
 
                     <div class="gallery-item gallery-tall">
 
-                        <img src="https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=85"
+                        <img src="https://images.unsplash.com/photo-1581420455468-e748ad82ff50?w=1200&auto=format&fit=crop&q=80"
                             alt="Sri Lanka temple">
 
                         <div class="gallery-overlay">
@@ -687,7 +718,7 @@
 
                     <div class="gallery-item">
 
-                        <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=800&q=85"
+                        <img src="https://plus.unsplash.com/premium_photo-1689838027426-bf5cc3a0131f?w=1200&auto=format&fit=crop&q=80"
                             alt="Sri Lanka landscape">
 
                         <div class="gallery-overlay">
@@ -699,8 +730,8 @@
 
                     <div class="gallery-item">
 
-                        <img src="https://images.unsplash.com/photo-1530789253388-582c481c54b0?auto=format&fit=crop&w=800&q=85"
-                            alt="Sri Lanka beach">
+                        <img src="https://images.unsplash.com/photo-1579989197111-928f586796a3?w=1200&auto=format&fit=crop&q=80"
+                            alt="Sri Lanka Beach">
 
                         <div class="gallery-overlay">
                             <i class="fa-solid fa-expand"></i>
@@ -711,8 +742,8 @@
 
                     <div class="gallery-item">
 
-                        <img src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=800&q=85"
-                            alt="Wildlife safari">
+                        <img src="https://images.unsplash.com/photo-1509982724584-2ce0d4366d8b?w=1200&auto=format&fit=crop&q=80"
+                            alt="Sri Lanka scenery">
 
                         <div class="gallery-overlay">
                             <i class="fa-solid fa-expand"></i>
@@ -723,8 +754,8 @@
 
                     <div class="gallery-item">
 
-                        <img src="https://images.unsplash.com/photo-1470214304380-aadaedcfff1b?auto=format&fit=crop&w=800&q=85"
-                            alt="Mountain landscape">
+                        <img src="https://images.unsplash.com/photo-1578519050142-afb511e518de?w=1200&auto=format&fit=crop&q=80"
+                            alt="Ella Sri Lanka">
 
                         <div class="gallery-overlay">
                             <i class="fa-solid fa-expand"></i>
@@ -739,9 +770,7 @@
         </section>
 
 
-        <!-- =========================
-             TESTIMONIAL
-        ========================== -->
+        <!-- TESTIMONIAL -->
 
         <section class="testimonial-section">
 
@@ -752,6 +781,7 @@
                     <div class="quote-icon">
                         <i class="fa-solid fa-quote-left"></i>
                     </div>
+
 
                     <div class="testimonial-content">
 
@@ -765,20 +795,25 @@
                             Sri Lanka exceeded every expectation."
                         </p>
 
+
                         <div class="testimonial-author">
-                            <div class="author-avatar">
+
+                            <div class="author-avatar" id="testimonialAvatar">
                                 JM
                             </div>
 
                             <div>
+
                                 <strong id="testimonialName">
                                     James Mitchell
                                 </strong>
 
-                                <span>
+                                <span id="testimonialCountry">
                                     United Kingdom
                                 </span>
+
                             </div>
+
                         </div>
 
                     </div>
@@ -786,11 +821,11 @@
 
                     <div class="testimonial-controls">
 
-                        <button id="prevTestimonial">
+                        <button id="prevTestimonial" type="button">
                             <i class="fa-solid fa-arrow-left"></i>
                         </button>
 
-                        <button id="nextTestimonial">
+                        <button id="nextTestimonial" type="button">
                             <i class="fa-solid fa-arrow-right"></i>
                         </button>
 
@@ -803,9 +838,7 @@
         </section>
 
 
-        <!-- =========================
-             BOOKING CTA
-        ========================== -->
+        <!-- BOOKING -->
 
         <section class="booking-section" id="booking">
 
@@ -828,8 +861,11 @@
                 </p>
 
                 <a href="#contact" class="btn btn-primary">
+
                     Start Planning
+
                     <i class="fa-solid fa-paper-plane"></i>
+
                 </a>
 
             </div>
@@ -837,9 +873,7 @@
         </section>
 
 
-        <!-- =========================
-             CONTACT
-        ========================== -->
+        <!-- CONTACT -->
 
         <section class="section contact-section" id="contact">
 
@@ -910,7 +944,20 @@
                 </div>
 
 
-                <form class="contact-form" id="contactForm">
+                <!-- CONTACT FORM -->
+
+                <form class="contact-form" id="contactForm"
+                    action="https://formsubmit.co/thanushadimantha1226@gmail.com" method="POST">
+
+                    <input type="hidden" name="_subject" value="New Sri Lanka Tour Inquiry">
+
+                    <input type="hidden" name="_template" value="table">
+
+                    <input type="hidden" name="_captcha" value="false">
+
+                    <input type="hidden" name="_next"
+                        value="https://thanusha1226.github.io/Tourist_Web_Sample/success.html">
+
 
                     <div class="form-row">
 
@@ -920,7 +967,7 @@
                                 Your Name
                             </label>
 
-                            <input type="text" id="name" placeholder="John Doe" required>
+                            <input type="text" id="name" name="Name" placeholder="John Doe" required>
 
                         </div>
 
@@ -931,7 +978,7 @@
                                 Email Address
                             </label>
 
-                            <input type="email" id="email" placeholder="john@example.com" required>
+                            <input type="email" id="email" name="Email" placeholder="john@example.com" required>
 
                         </div>
 
@@ -946,7 +993,7 @@
                                 Phone Number
                             </label>
 
-                            <input type="tel" id="phone" placeholder="+44 123 456 789">
+                            <input type="tel" id="phone" name="Phone" placeholder="+44 123 456 789" required>
 
                         </div>
 
@@ -957,29 +1004,29 @@
                                 Interested In
                             </label>
 
-                            <select id="subject">
+                            <select id="subject" name="Interested In" required>
 
-                                <option value="">
+                                <option value="" disabled selected>
                                     Select a tour
                                 </option>
 
-                                <option>
+                                <option value="Cultural Tour">
                                     Cultural Tour
                                 </option>
 
-                                <option>
+                                <option value="Hill Country">
                                     Hill Country
                                 </option>
 
-                                <option>
+                                <option value="Beach Holiday">
                                     Beach Holiday
                                 </option>
 
-                                <option>
+                                <option value="Wildlife Safari">
                                     Wildlife Safari
                                 </option>
 
-                                <option>
+                                <option value="Custom Tour">
                                     Custom Tour
                                 </option>
 
@@ -996,20 +1043,24 @@
                             Your Message
                         </label>
 
-                        <textarea id="message" rows="5" placeholder="Tell us about your dream trip..."
+                        <textarea id="message" name="Message" rows="5" placeholder="Tell us about your dream trip..."
                             required></textarea>
 
                     </div>
 
 
-                    <button type="submit" class="btn btn-dark submit-btn">
+                    <button type="submit" class="btn btn-dark submit-btn" id="submitButton">
 
-                        Send Inquiry
+                        <span id="submitText">
+                            Send Inquiry
+                        </span>
+
                         <i class="fa-solid fa-paper-plane"></i>
 
                     </button>
 
-                    <p class="form-message" id="formMessage"></p>
+                    <p class="form-message" id="formMessage">
+                    </p>
 
                 </form>
 
@@ -1020,9 +1071,7 @@
     </main>
 
 
-    <!-- =========================
-         FOOTER
-    ========================== -->
+    <!-- FOOTER -->
 
     <footer class="footer">
 
@@ -1063,8 +1112,10 @@
                         <i class="fa-brands fa-youtube"></i>
                     </a>
 
-                    <a href="#" aria-label="WhatsApp">
+                    <a href="https://wa.me/94771234567" target="_blank" aria-label="WhatsApp">
+
                         <i class="fa-brands fa-whatsapp"></i>
+
                     </a>
 
                 </div>
@@ -1130,7 +1181,7 @@
     </footer>
 
 
-    <!-- WhatsApp Button -->
+    <!-- WHATSAPP -->
 
     <a href="https://wa.me/94771234567" class="whatsapp-btn" target="_blank" aria-label="Contact on WhatsApp">
 
@@ -1139,19 +1190,23 @@
     </a>
 
 
-    <!-- Back to Top -->
+    <!-- BACK TO TOP -->
 
-    <button class="back-to-top" id="backToTop">
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+
         <i class="fa-solid fa-arrow-up"></i>
+
     </button>
 
 
-    <!-- Image Lightbox -->
+    <!-- LIGHTBOX -->
 
     <div class="lightbox" id="lightbox">
 
-        <button class="lightbox-close" id="lightboxClose">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close">
+
             <i class="fa-solid fa-xmark"></i>
+
         </button>
 
         <img id="lightboxImage" src="" alt="Gallery image">
